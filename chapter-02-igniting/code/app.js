@@ -1,13 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-const headerEl = React.createElement("h1", {}, "Namaste React");
+const headerEl = React.createElement("h1", { id: "title" }, "Namaste React");
 const paragraphEl = React.createElement("p", {}, "Hello World");
 const container = React.createElement(
   "div",
   {
     id: "container",
-    style: { background: "green", color: "#fff" },
+    style: { background: "blue", color: "#fff" },
   },
   [headerEl, paragraphEl]
 );
