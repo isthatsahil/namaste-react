@@ -2911,7 +2911,7 @@ const paragraphEl = /*#__PURE__*/ (0, _reactDefault.default).createElement("p", 
 const container = /*#__PURE__*/ (0, _reactDefault.default).createElement("div", {
     id: "container",
     style: {
-        background: "blue",
+        background: "green",
         color: "#fff"
     }
 }, [

@@ -7,7 +7,7 @@ const container = React.createElement(
   "div",
   {
     id: "container",
-    style: { background: "blue", color: "#fff" },
+    style: { background: "green", color: "#fff" },
   },
   [headerEl, paragraphEl]
 );
